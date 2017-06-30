@@ -1,0 +1,26 @@
+#fondillo{
+  background-image: url('http://www.richlira.com/eudoxa/userfondo02oscuro.jpg');
+  -webkit-background-size: cover;
+
+}
+
+.phrase{
+  font-family: 'Open Sans', sans-serif;
+  color: #f2f2f2;
+}
+
+
+#red{
+  background-color: #7D0C0E;
+}
+
+#letra{
+  color: #f2f2f2;
+}
+
+hr.hrprofile {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
