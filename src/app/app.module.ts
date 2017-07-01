@@ -15,6 +15,9 @@ import { UsuariobarraComponent } from './usuariobarra/usuariobarra.component';
 import { UsuariomensajesComponent } from './usuariomensajes/usuariomensajes.component';
 import { UsuarioprofileComponent } from './usuarioprofile/usuarioprofile.component';
 
+import { ServerService } from './server.service';
+import { UsuariofooterComponent } from './usuariofooter/usuariofooter.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +28,8 @@ import { UsuarioprofileComponent } from './usuarioprofile/usuarioprofile.compone
     HomeComponent,
     UsuariobarraComponent,
     UsuariomensajesComponent,
-    UsuarioprofileComponent
+    UsuarioprofileComponent,
+    UsuariofooterComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,7 @@ import { UsuarioprofileComponent } from './usuarioprofile/usuarioprofile.compone
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ServerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
