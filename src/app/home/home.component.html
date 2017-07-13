@@ -2,83 +2,72 @@
 <!--Mask-->
 <div class="view">
   <!--Intro content-->
-  <div class="full-bg-img flex-center">
-    <ul>
-      <li>
-        <h1 class="h1-responsive animated fadeInDown white-text">Access to your success</h1></li>
-      <li>
-        <br>
-      </li>
-      <li class="col-md-12">
-        <div class="md-form text-left animated fadeInDown">
-          <i class="fa fa-envelope prefix"></i>
-          <input type="text" id="form2" class="form-control">
-          <label for="form2">Your email</label>
-        </div>
-      </li>
-      <li>
-        <button type="button" class="btn btn-success animated fadeInUp" routerLink="/usuario"><i class="fa fa-sign-in" aria-hidden="true"> </i> Sign in</button>
-      </li>
-    </ul>
+  <div class="full-bg-img">
+    <div class="container flex-center animated fadeInUp">
+  		<div class="jumbotron no-padding width-parent">
+  			<div class="row no-margin">
+  			<div class="col no-padding no-overflow">
 
-  </div>
+          <!-- Left card background settings -->
+  				<div class="bg-settings">
+  					<img class="inline-block" src="/assets/bg.jpg">
+  				</div>
+          <!-- /Left card background settings -->
+
+  				<div class="absolute gradient height-parent p-50">
+  		    <h1 class="display-2" style="font-weight:400"><strong>Vision.</strong></h1>
+  		    <p class="left-card-intro">We contribute to eradicate poverty and create prosperity in the world through creative thinking and entrepreneurship.</p>
+  		    <hr class="my-2">
+  		    <p class="lead">
+  		      <a class="btn btn-primary btn-rounded btn-rounded-lg" href="https://www.facebook.com/Eudoxa/" target="_blank" role="button"><i class="fa fa-facebook" style="padding:0 3px" aria-hidden="true"></i></a>
+  					<a class="btn btn-info btn-rounded btn-rounded-lg" href="https://twitter.com/Eudoxa" target="_blank" role="button"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="btn btn-light-green btn-rounded btn-rounded-lg" href="https://medium.com/@EudoxaEnglish/latest" target="_blank" role="button"><i class="fa fa-medium" aria-hidden="true"></i></a>
+  		    </p>
+  			</div>
+  			</div>
+  			<div class="col">
+  				<!--Naked Form-->
+  				<div class="card-block p-50">
+
+  				    <!--Header-->
+
+  				    <h1 class="display-2 mb-2 black-text" style="font-weight:400"><strong>Login.</strong></h1>
+
+  				    <!--Body-->
+  				    <div class="md-form">
+  				        <input #email id="email" type="text" class="form-control">
+  				        <label for="email">Your email</label>
+  				    </div>
+              
+              <blockquote id="validation-form" class="hide blockquote bq-danger">
+                  <p class="no-padding bq-title">Wrong credentials!</p>
+              </blockquote>
+
+  				    <div class="hide md-form" style="margin-bottom:2rem">
+  				        <input #password id="password" type="password" class="form-control">
+  				        <label for="password">Your password</label>
+  				    </div>
+              
+
+  		
+  				    <button (click)="clicked(email, password)" class="no-margin btn btn-light-green">Login</button>
+  	
+  				</div>
+  			</div>
+  		</div>
+  		</div>
+  	</div>
   <!--/Intro content-->
 </div>
 <!--/.Mask-->
 
 
 <!--Footer-->
-<footer class="page-footer center-on-small-only" style=" margin-top: 0px;">
-
-  <!--Footer Links-->
+<footer>
   <div class="container">
-    <div class="row">
-
-      <!--First column-->
-      <div class="col-md-8">
-        <h5 class="title">Eudoxa.mx</h5>
-        <p>Eudoxa es una consultora mexicana que tiene como misión impulsar la creación, el crecimiento y la innovación de empresas e instituciones culturales y sociales.</p>
-      </div>
-      <!--/.First column-->
-
-      <!--Third column-->
-      <div class="col-md-4">
-        <h5 class="title">LINKS</h5>
-        <ul>
-          <li><a href="https://eudoxa.mx/" target="_blank">Home</a></li>
-          <li><a href="https://eudoxa.mx/about/" target="_blank">About Us</a></li>
-          <li><a href="https://eudoxa.mx/contactanos/" target="_blank">Contact Us</a></li>
-        </ul>
-      </div>
-      <!--/.Third column-->
-
-      <hr class="hidden-md-up">
-
-    </div>
-  </div>
-  <!--/.Footer Links-->
-
-  <hr>
-
-  <!--Call to action-->
-  <div class="call-to-action">
-    <ul>
-      <li>
-        <h5>Contact Us</h5></li>
-      <li><a target="_blank" href="https://www.facebook.com/Eudoxa/" target="_blank" class="btn btn-danger">Facebook</a></li>
-      <li><a target="_blank" href="https://twitter.com/Eudoxa" target="_blank" class="btn btn-default">Twitter</a></li>
+    <ul class="no-margin">
+      <li><a href="http://www.eudoxa.mx" target="_blank">2017 © eudoxa.mx</a></li>
     </ul>
   </div>
-  <!--/.Call to action-->
-
-  <!--Copyright-->
-  <div class="footer-copyright">
-    <div class="container-fluid">
-      © 2017 Copyright: <a href="https://eudoxa.mx/"> Eudoxa.mx </a>
-
-    </div>
-  </div>
-  <!--/.Copyright-->
-
 </footer>
 <!--/.Footer-->

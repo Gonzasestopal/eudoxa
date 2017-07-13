@@ -1,0 +1,90 @@
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+footer ul li {
+	margin: 0 1rem;
+	display: inline-block;
+}
+
+.bg-settings {
+  text-indent: -120px;
+  max-height: 480px;
+}
+
+.gradient {
+	background: linear-gradient(rgba(0, 0, 0, 0.30),rgba(0,0,0,.20));
+}
+
+footer ul li a {
+	font-size: 0.8rem;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+footer ul li a:hover {
+	color: rgb(255, 255, 255);
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.btn-rounded {
+	border-radius: 50%;
+	line-height: 1.5;
+}
+
+.btn-rounded-lg {
+	padding:20px 24px;
+}
+
+.absolute {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.no-overflow {
+  overflow: hidden;
+}
+
+.width-parent {
+  width: 100%;
+}
+
+.height-parent {
+  height: 100%;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.left-card-intro {
+  width: 60%;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.p-50 {
+  padding: 50px
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#validation-form {
+  transition: visibility 0s, opacity 0.5s linear;
+}
