@@ -18,9 +18,9 @@ export class HomeComponent implements OnInit {
       this.router.navigateByUrl('/usuario');
     } else {
       email.classList.add('invalid');
-      var form = document.getElementById("validation-form");
-      form.style.visibility = 'visible';
-      form.style.opacity = "1";
+      var validation = document.getElementById("validation-form");
+      validation.style.visibility = 'visible';
+      validation.style.opacity = "1";
     }
   } 
 
